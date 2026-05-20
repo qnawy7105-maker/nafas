@@ -1,0 +1,6 @@
+{
+  "name": "Nafas Wellness | نَفَس للعلاجات العشبية",
+  "description": "تجربة فاخرة لاكتشاف العلاجات العشبية الطبيعية والخلطات المخصصة عبر نظام ذكاء اصطناعي تفاعلي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
