@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/admin",
+      "destination": "https://ash203.vercel.app/",
+      "permanent": false
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://ash203.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
