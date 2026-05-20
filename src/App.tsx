@@ -6,7 +6,13 @@ import { PRODUCTS, QUIZ_DATA, type Category, type Product, type CartItem } from 
 import confetti from 'canvas-confetti';
 
 // --- Components ---
+// في App.tsx — أضف هذا بعد سطر useState مباشرةً
 
+useEffect(() => {
+  if (window.location.pathname === '/admin') {
+    window.location.replace('https://ash203.vercel.app/');
+  }
+}, []);
 const Logo = ({ className }: { className?: string }) => (
   <div className={cn("flex items-center gap-3", className)}>
     <div className="relative w-12 h-12 flex items-center justify-center">
